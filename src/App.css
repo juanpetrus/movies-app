@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black !important;
+  color: #fff !important;
+}
+
+.navbar-dark {
+  background-color: #000 !important;
+}
+
+.carousel-aling {
+  height: 350px;
+  cursor: pointer;
+}
+
+.carousel-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.movie-list {
+  cursor: pointer;
+}
+
+.input-search {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px;
+}
