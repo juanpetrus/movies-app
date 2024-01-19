@@ -5,7 +5,7 @@ import genresData from '../../public/data/genres.json';
 import Movie from '../types/Movie';
 import NavBar from '../components/NavBar';
 import MovieCarousel from '../components/MovieCarousel';
-import useMovieData from '../utils/moviesData';
+import useMovieData from '../utils/useMovieData';
 
 const Home = () => {
   const [filteredMovies, setFilteredMovies] = useState<Movie[]>([]);
