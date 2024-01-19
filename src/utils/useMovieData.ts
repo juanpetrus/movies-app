@@ -27,7 +27,7 @@ const useMovieData = () => {
         setMovies(allMovies);
         setFeaturedMovies(featuredMovies);
       } catch (error) {
-        console.error('Erro ao carregar dados:', error);
+        console.error('Error loading data:', error);
       }
     };
     loadData();
